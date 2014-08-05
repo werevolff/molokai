@@ -18,6 +18,8 @@ class MolokaiCMS(object):
         from molokai_cms import MolokaiCMS
 
         molokai = MolokaiCMS('/path/to/main/application/', 'My Internet Page')
+        // Register Views for my application
+        molokai.register_views()
 
         if __name__ == '__main__':
             molokai.app.run()
@@ -33,3 +35,11 @@ class MolokaiCMS(object):
         self.project_dir = project_dir
         self.project_name = project_name
         self.app = Flask(self.project_name)
+
+    def register_views(self, apps=None):
+        """
+        Register views for this application
+
+        Arguments:
+            apps (list or tuple): List (tuple) of third-party application's views or None
+        """
