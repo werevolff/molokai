@@ -1,0 +1,13 @@
+wsgiref==0.1.2
+setuptools>=1.1.5
+pip>=1.4.1
+itsdangerous==0.24
+Werkzeug==0.9.6
+MarkupSafe==0.23
+Jinja2==2.7.3
+Flask==0.10.1
+flask_script==2.0.5
+WTForms>=2.0
+mongoengine==0.8.7
+flask_mongoengine>=0.7
+eve==0.4
