@@ -1,0 +1,15 @@
+{% comment %}
+This file contains pattern to create or repair settings.py file.
+This file contains settings for each project.
+File renders with jinja2
+{% endcomment %)
+# -*- coding: utf-8 -*-
+
+"""
+Here is global docstring of the settings.
+TODO: Write default docstring
+"""
+
+# Databases settings
+# TODO: write this variable
+DATABASES = {}

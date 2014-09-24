@@ -11,3 +11,6 @@ WTForms>=2.0
 mongoengine==0.8.7
 flask_mongoengine>=0.7
 eve==0.4
+Flask-Babel
+Flask-Testing
+nose

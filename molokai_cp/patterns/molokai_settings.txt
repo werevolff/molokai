@@ -1,0 +1,23 @@
+{% comment %}
+This file contains pattern to create or repair molokai_settings.py file.
+This file contains settings for molokai_cp application
+File renders with jinja2
+{% endcomment %)
+# -*- coding: utf-8 -*-
+
+
+"""
+Global docstring of the file
+
+TODO: Write global docstring
+"""
+import os
+
+# Directory, contains settings
+SETTINGS_DIR = os.path.dirname(__file__)
+
+
+DATABASE = {
+    'CONNECTOR': 'sqlite3',
+    'PATH': os.path.join(SETTINGS_DIR, 'molokai_cp.sqlite')
+}

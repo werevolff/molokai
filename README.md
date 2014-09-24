@@ -1,2 +1,2 @@
-molokai
+molokai-cms
 =======
